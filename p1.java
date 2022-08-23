@@ -16,7 +16,7 @@ class Student{
     }
     public static void main(String args[]){
         Student s=new Student();
-        s.setDetails(20011879, "Sachin Aswal", "CSE", "Graphic Era Hill University");
+        s.setDetails(2017785, "Vashu Sharma", "CSE", "Graphic Era Deemed to be University");
         s.showDetails();
     }
 }
