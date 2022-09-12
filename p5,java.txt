@@ -1,0 +1,27 @@
+import java.util.*;
+public class SStudent
+{
+  String name,branch;
+  static String university="Graphic Era Deemed to be University";
+  int ID;
+  void setDetails(String nm,String b,int i){
+    name=nm;
+    branch=b;
+    ID=i;
+  }
+  void showDetails(){
+    System.out.println("Name of student="+name);
+    System.out.println("Branch of student="+branch);
+    System.out.println("University of student="+university);
+    System.out.println("ID of student="+ID);
+  }
+public static void main(String args[]){
+  String nm="Vashu ";
+  String b="CSE";
+  int i=20177785;
+  Student obj=new SStudent();
+  obj.setDetails(nm,b,i);
+  obj.showDetails();}
+}
+
+
