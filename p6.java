@@ -9,5 +9,5 @@ public static void main(String args[]){
     System.out.println(s.equalsIgnoreCase("JAVA"));                              //(vi)
     System.out.println("last occurence index of a="+s.lastIndexOf('a'));           //(vii)
     }
-}
+
 
